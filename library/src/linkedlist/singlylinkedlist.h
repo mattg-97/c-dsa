@@ -1,12 +1,14 @@
 #pragma once
 
+#include "defines.h"
+
 typedef struct node
 {
     int info;
     struct node *link;
 } node;
 
-void singlylinkedlist();
+API void singlylinkedlist();
 struct node *createList(struct node *start);
 void displayList(struct node *start);
 void countNodes(struct node *start);

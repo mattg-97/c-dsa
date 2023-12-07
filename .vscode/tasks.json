@@ -4,7 +4,7 @@
             "type": "shell",
             "label": "Build Everything",
             "windows": {
-                "command": "${workspaceFolder}\\build.bat",
+                "command": "${workspaceFolder}\\build-all.bat",
             },
             "linux": {
                 "command": "${workspaceFolder}/build-all.sh",
