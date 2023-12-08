@@ -1,4 +1,4 @@
-#include <entry.h>
+#include <dsalib.h>
 
 int main()
 {
